@@ -6,8 +6,10 @@ import {
   Globe 
 } from 'lucide-react';
 
-const EduBridgeDashboard = () => {
+const Intro = () => {
+  
   return (
+    
     <div className="relative flex size-full min-h-screen flex-col bg-gray-50" style={{ fontFamily: '"Plus Jakarta Sans", "Noto Sans", sans-serif' }}>
       <div className="layout-container flex h-full grow flex-col">
         {/* Header */}
@@ -209,7 +211,9 @@ const EduBridgeDashboard = () => {
         </div>
       </div>
     </div>
+    
   );
+  
 };
 
-export default EduBridgeDashboard;
+export default Intro;

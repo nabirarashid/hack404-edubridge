@@ -1,4 +1,9 @@
 {
+    "compilerOptions": {
+      "module": "es2015",
+      "target": "es2015",
+      "sourceMap": true
+    },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

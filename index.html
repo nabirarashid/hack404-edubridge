@@ -9,5 +9,13 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <input type="file" id="input"/>
+
   </body>
+  <script>
+    import Tesseract from "tesseract.js";
+    const file = document.getElementById("input").files[0];
+    Tesseract.recognize(file, "eng", {logger:(m) => console.log(m)}).then(({data: {text}}) => {console.log(text)});
+  
+  </script>
 </html>
