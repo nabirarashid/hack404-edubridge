@@ -1,6 +1,9 @@
+import Image from "../components/image";
+
 const EduBridgeDashboard = () => {
   return (
     <div className="relative flex size-full min-h-screen flex-col bg-gray-50" style={{ fontFamily: '"Plus Jakarta Sans", "Noto Sans", sans-serif' }}>
+      < Image />
       <div className="layout-container flex h-full grow flex-col">        
 
           {/* Main Content */}
@@ -139,7 +142,9 @@ const EduBridgeDashboard = () => {
             <p className="text-gray-600 text-sm font-normal leading-normal pb-3 pt-1 px-4">Last sent: 2 days ago</p>
           </div>
         </div>
+        
       </div>
+      
   );
 };
 
